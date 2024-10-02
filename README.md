@@ -1,7 +1,7 @@
 # Snake Game in C++
 
 ## Description
-This project is a simple implementation of the classic Snake game using C++. The game is played in the console and involves controlling a snake to eat food, which makes the snake grow longer. The game ends if the snake runs into itself or the walls.
+This project is a simple implementation of the classic Snake game using C++. The game is played in the console and involves controlling a snake to eat food, which makes the snake grow longer. The game ends if the snake runs into itself or the walls. This is a script in which the game will be beaten by a TAS-like program. 
 
 ## Features
 - Console-based gameplay
