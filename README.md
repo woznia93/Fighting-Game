@@ -1,13 +1,13 @@
-# Snake Game in C++
+# Snake Game TAS in C++
 
 ## Description
-This project is a simple implementation of the classic Snake game using C++. The game is played in the console and involves controlling a snake to eat food, which makes the snake grow longer. The game ends if the snake runs into itself or the walls. This is a script in which the game will be beaten by a TAS-like program. 
+This project is a Tool-Assisted Speedrun (TAS) implementation for the classic Snake game using C++. The program is designed to automatically play and beat the Snake game by following a pre-determined optimal path to maximize the score without human intervention.
 
 ## Features
-- Console-based gameplay
-- Snake grows longer as it eats food
-- Game over when the snake collides with itself or the walls
-- Simple controls using arrow keys
+- Console-based Snake game
+- Automated gameplay using a TAS algorithm
+- Optimal pathfinding to maximize score
+- Game over detection when the snake collides with itself or the walls
 
 ## Requirements
 - C++ compiler (e.g., g++)
@@ -16,13 +16,13 @@ This project is a simple implementation of the classic Snake game using C++. The
 ## Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/snake-game-cpp.git
-    cd snake-game-cpp
+    git clone https://github.com/yourusername/snake-game-tas-cpp.git
+    cd snake-game-tas-cpp
     ```
 
 2. Compile the game:
     ```sh
-    g++ -o snake main.cpp
+    g++ -o snake_tas main.cpp
     ```
 
     Alternatively, if you have `make` installed, you can use the provided Makefile:
@@ -31,18 +31,14 @@ This project is a simple implementation of the classic Snake game using C++. The
     ```
 
 ## Usage
-Run the compiled executable to start the game:
+Run the compiled executable to start the TAS program:
 ```sh
-./snake
+./snake_tas
 
-Use the arrow keys to control the snake:
+The program will automatically control the snake to play the game and aim for the highest possible score.
 
-Up Arrow: Move up
-Down Arrow: Move down
-Left Arrow: Move left
-Right Arrow: Move right
 Code Structure
-main.cpp: The main file containing the game logic and rendering.
+main.cpp: The main file containing the game logic, TAS algorithm, and rendering.
 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
@@ -52,4 +48,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 Acknowledgements
 Inspired by the classic Snake game.
 I be bored ngl 
-Thanks to all contributors and open-source projects that helped in the development of this game.
+Thanks to all contributors and open-source projects that helped in the development of this TAS program.
