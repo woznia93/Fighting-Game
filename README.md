@@ -1,4 +1,4 @@
-# Browser Game
+# Browser Fighting Game
 
 A simple browser-based game built using **Java** and **HTML**. The game can be played directly in a browser and requires no additional installations.
 
