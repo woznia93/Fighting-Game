@@ -1,51 +1,45 @@
-# Snake Game TAS in C++
+# Browser Game
 
-## Description
-This project is a Tool-Assisted Speedrun (TAS) implementation for the classic Snake game using C++. The program is designed to automatically play and beat the Snake game by following a pre-determined optimal path to maximize the score without human intervention.
+A simple browser-based game built using **Java** and **HTML**. The game can be played directly in a browser and requires no additional installations.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [How to Play](#how-to-play)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+
+This browser game is a fun and interactive experience built with HTML for the front-end interface and Java for game logic. The game can be played directly in any modern browser without needing additional software.
 
 ## Features
-- Console-based Snake game
-- Automated gameplay using a TAS algorithm
-- Optimal pathfinding to maximize score
-- Game over detection when the snake collides with itself or the walls
 
-## Requirements
-- C++ compiler (e.g., g++)
-- Make (optional, for using the provided Makefile)
+- **Cross-platform**: Runs in any modern web browser.
+- **Interactive Gameplay**: Engages players with dynamic controls and visual feedback.
+- **High Scores**: Players can track their performance with a high-score system.
+- **Responsive Design**: Optimized for both desktop and mobile users.
 
-## Installation
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/snake-game-tas-cpp.git
-    cd snake-game-tas-cpp
-    ```
+## Technologies
 
-2. Compile the game:
-    ```sh
-    g++ -o snake_tas main.cpp
-    ```
+- **Java**: Core game logic and mechanics.
+- **HTML/CSS**: User interface and styling.
+- **JavaScript** (optional): To handle events and user interactions.
 
-    Alternatively, if you have `make` installed, you can use the provided Makefile:
-    ```sh
-    make
-    ```
+## Setup
 
-## Usage
-Run the compiled executable to start the TAS program:
-```sh
-./snake_tas
+### Prerequisites
 
-The program will automatically control the snake to play the game and aim for the highest possible score.
+- A modern web browser (e.g., Chrome, Firefox, Edge)
+- Java JDK (only needed if you are compiling the game or modifying the Java code)
+- Optional: A local server to host the game (e.g., `XAMPP`, `Node.js`, etc.)
 
-Code Structure
-main.cpp: The main file containing the game logic, TAS algorithm, and rendering.
-Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+### Installation
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+1. Clone this repository:
 
-Acknowledgements
-Inspired by the classic Snake game.
-I be bored ngl 
-Thanks to all contributors and open-source projects that helped in the development of this TAS program.
+   ```bash
+   git clone https://github.com/your-username/browser-game.git
