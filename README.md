@@ -42,4 +42,4 @@ This browser game is a fun and interactive experience built with HTML for the fr
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/browser-game.git
+   git clone https://github.com/woznia93/browser-game.git
